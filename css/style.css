@@ -1,0 +1,874 @@
+
+  /*Global css*/
+*{
+	margin: 0
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*header section css start*/
+header{
+    background: url(../img/bg1.png);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+header .navbar{
+
+	/*margin-top: 20px;*/
+}
+
+header .navbar .logo img{
+
+}
+
+header .navbar .nav-item{
+   margin: 10px;
+   position: relative;
+}
+.navbar .nav-item .nav-link{
+color: #fff
+}
+.navbar .nav-item .nav-link::after{
+    content: "";
+	background: #fff;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: 0.4s linear;
+}
+.navbar .nav-item.active .nav-link::after{
+    content: "";
+	background: #fff;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+	opacity: 1;
+	transition: 0.4s linear;
+}
+.navbar .nav-item:hover .nav-link::after{
+	opacity: 1;
+	width: 100%;
+}
+
+
+header .navbar .nav-item .btn-login{
+
+	background: #fff;
+	color: #4856f3;
+	border-radius: 20px;
+	padding: 8px 30px;
+}
+header .navbar .nav-item .btn-login:hover{
+color: green;
+}
+header .navbar .nav-item .btn-login::after{
+content: unset;
+}
+header .hero-area{
+	
+	text-align: center;
+	padding: 60px 0;
+} 
+header .hero-area h1{
+
+	font-size: 50px;
+	padding: 0 20%;
+	color: #fff;
+	margin-bottom: 25px;
+}
+header .hero-area p{
+
+	color: #fff;
+	padding: 0 28%;
+	line-height: 1.7;
+	margin-bottom: 40px;
+}
+header .hero-area .btn-cta{
+
+	text-decoration: none;
+	background: #fff;
+	padding: 15px 30px;
+	border-radius: 30px;
+	color: #4856f3;
+	display: inline-block;
+
+}
+header .hero-area .btn-cta:hover {
+
+}
+/*header section css end*/
+
+/*about us section css start*/
+.about-us{
+
+}
+.about-us .content{
+
+	padding: 10%;
+}
+.about-us .content h6{
+
+	color: #9f9f9f;
+	text-align: right;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.about-us .content h2{
+
+	font-size: 35px;
+	text-align: right;
+	padding-left: 35%;
+	margin-bottom: 50px;
+}
+.about-us .content h4{
+
+	text-align: right;
+	margin-bottom: 18px;
+	font-size: 20px;
+}
+ .about-us .content .inner-content{
+	float: left;
+	width: 100%;
+	margin-bottom: 15%;
+}
+.about-us  .solution{
+	margin-bottom: 40px;
+}
+.about-us .content p{
+
+	padding-left: 25px;
+	text-align: right;
+	line-height: 1.7;
+}
+.about-us .content img{
+	float: right;
+
+}
+.about-img{
+	
+	
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*about us section css end*/
+
+/*what-we-do section css start*/
+.what-we-do{
+
+	background: #faf8f5;
+	text-align: left;
+}
+.what-we-do .marketing{
+
+	margin-top: 15%;
+	margin-bottom: 20%;
+	padding-left: 30px;
+	font-size: 16px;
+	color: #9f9f9f;
+	text-align: left;
+}
+.what-we-do .marketing ul{
+     
+      padding-left: 0; 
+}
+.what-we-do .marketing ul li{
+
+	background: #fff;
+	margin: 10px 25%;
+	padding: 25px;
+	border-radius: 5px;
+	list-style: none;
+}
+
+.what-we-do .marketing ul li a{
+
+	color: #9f9f9f;
+	text-decoration: none;
+}
+.what-we-do .marketing ul li a:hover{
+	
+	color: #294af1;
+}
+.what-we-do .marketing ul li span{
+
+	padding: 0 20px;
+}
+
+.what-we-do  h1{
+
+}
+.what-we-do .website{
+	
+	margin-top: 25%;
+}
+
+.what-we-do .website h6{
+
+	color: #9f9f9f;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.what-we-do .website h2{
+
+	font-size: 35px;
+	padding-right: 35%;
+	margin-bottom: 25px;
+}
+.what-we-do .website p{
+
+	color: #505457;
+	line-height: 1.7;
+}
+
+/*what-we-do section  css end*/
+
+/*Service-Offering section css start*/
+.service-offering{
+   padding: 8% 0px;
+   text-align: center;
+   
+}
+.service-offering h2{
+
+	font-size: 40px;
+	margin-bottom: 25px;
+	padding: 0 30%;
+}
+.service-offering p{
+
+	color: #9f9f9f;
+	line-height: 1.7;
+	padding: 0px 30%;
+	margin-bottom: 70px;
+}
+.service-offering .market-place{
+
+	text-align: left;
+	margin-left: 80px;
+}
+.service-offering .market-place .service-img{
+
+	margin-bottom: 15%;
+	
+	height: 50px;
+	width: 60px;
+	
+}
+.service-offering .market-place h3{
+
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.service-offering .market-place p{
+
+	color: #999999;
+	padding: 0px 2px;
+	line-height: 1.7;
+}
+
+/*Service-Offering section css end*/
+
+/*thinking section  css start*/
+
+.thinking{
+
+	background: url(../img/bg2.png);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.thinking .thinking-area{
+
+	text-align: center;
+	margin: 80px 0;
+}
+.thinking .thinking-area h2{
+
+	font-size: 35px;
+	padding: 0 20%;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.thinking .thinking-area p{
+
+	color: #fff;
+	padding: 0 16%;
+	line-height: 1.7;
+	margin-bottom: 50px;
+}
+.thinking .thinking-area .btn-cta{
+	text-decoration: none;
+	background: #fff;
+	padding: 15px 30px;
+	border-radius: 30px;
+	color: #4856f3;
+	display: inline-block;
+		
+}
+
+.thinking .thinking-area .btn-cta1{
+	text-decoration: none;
+	
+	padding: 15px 30px;
+	border-radius: 30px;
+	color: #fff;
+	display: inline-block;
+
+	
+}
+/*thinking section css end*/
+
+/*awesome clint section css start*/
+.awesome-clint{
+
+	padding: 8% 0px;
+}
+.awesome-clint .clint-img{
+
+	padding-left: 40px;
+}
+.awesome-clint .clint-img img{
+	
+	margin: 8px;
+}
+.awesome-clint .clint-img img:hover {
+    cursor: pointer;
+    box-shadow: 0px 6px 8px 0 #075707b8;
+}
+.awesome-clint .clint{
+
+	margin-top: 75px;
+}
+.awesome-clint .clint h6{
+
+	color: #9f9f9f;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.awesome-clint .clint h2{
+
+	font-size: 35px;
+	padding-right: 35%;
+	margin-bottom: 25px;
+}
+.awesome-clint .clint p{
+	
+	color: #505457;
+	line-height: 1.7;
+}
+/*awesome clint section css end*/
+
+/*footer section css start*/
+.footer{
+
+	background: url(../img/bg3.png);
+	background-position: center;
+	background-size: cover;
+	padding: 10% 0;
+}
+.footer .inspo-part{
+
+	padding: 0 50px;
+} 
+.footer .inspo-part h3{
+
+}
+.footer .inspo-part p{
+
+	margin-top: 30px;
+	color: #fefefe;
+	line-height: 1.7
+}
+.footer .info{
+	
+
+}
+.footer .info h4 {
+    color: #fff;
+    /*margin-left: -30px;*/
+    margin: 10px;
+    text-align: center;
+}
+.footer .info .nav .nav-link {
+    color: #fff;
+    /*margin-left: -50px;*/
+}
+
+/*footer section css end*/
+
+
+
+/*responsive css*/
+
+@media (min-width: 0px) and (max-width: 320px){
+  .navbar .nav-item.active .nav-link::after {
+    width: 25%;
+    
+}
+.navbar .nav-item:hover .nav-link::after {
+    opacity: 1;
+    width: 25%;
+}
+.navbar .nav-item:hover .nav-link::after {
+    opacity: 1;
+    width: 45%;
+}
+header .navbar .nav-item {
+    margin: 8px;
+}
+header .navbar .nav-item .btn-login {
+    text-align: center;
+}
+header .hero-area {
+   
+    padding: 45px 0;
+}
+header .hero-area h1 {
+    font-size: 30px;
+    padding: 0 ;
+}
+header .hero-area p {
+    padding: 0px 16px;
+    margin-bottom: 35px;
+}
+.about-us .content h6 {
+    text-align: center;
+}
+.about-us .content h2 {
+    text-align: center;
+    padding-left: 0;
+}
+.col-1{
+	padding: 0;
+}
+.about-us .content h4 {
+    margin-right: 15px;
+}
+.about-us .content p {
+    padding-left: 0px;
+    margin-right: 15px;
+}
+.what-we-do .marketing {
+    padding-left: 0px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+.what-we-do .marketing ul li {
+    margin: 10px 0;
+    padding: 20px;
+}
+.what-we-do .website {
+    margin: 12% 0;
+    text-align: center;
+}
+.what-we-do .website h6 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.what-we-do .website h2 {
+    font-size: 28px;
+    padding-right: 0;
+    margin-bottom: 20px;
+    
+}
+.service-offering {
+    padding: 6% 0px;
+    
+}
+.service-offering h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding: 0px 0%;
+    margin-top: 28px;
+}
+.service-offering p {
+    padding: 0px 0px;
+    margin-bottom: 45px;
+}
+.service-offering .market-place .service-img {
+    margin-bottom: 12%;
+    height: 50px;
+    width: 100%;
+}
+.service-offering .market-place {
+    text-align: center;
+    margin-left: 0;
+}
+.service-offering .market-place h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.thinking .thinking-area {
+    padding: 80px 0;
+    text-align: center;
+    margin-top: 0;
+}
+.thinking .thinking-area h2 {
+    font-size: 35px;
+    padding: 0;
+   
+}
+.thinking .thinking-area p {
+    padding: 0;
+    margin-bottom: 40px;
+}
+.thinking .thinking-area .btn-cta {
+    padding: 12px 30px;
+}
+.awesome-clint .clint {
+    margin-top: 50px;
+}
+.awesome-clint .clint h6 {
+    text-align: center;
+}
+.awesome-clint .clint h2 {
+    font-size: 30px;
+    padding-right: 0;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.awesome-clint .clint p {
+    text-align: center;
+    padding: 0 14%;
+}
+.footer .inspo-part {
+    padding: 0px 0px;
+    text-align: center;
+}
+.footer .inspo-part p {
+    margin-top: 20px;
+}
+.footer .info ul li {
+    margin: 12px;
+        
+}
+.footer .info ul li:first-child {
+    margin-bottom: 150x;
+    text-align: center;
+}
+}
+@media (min-width: 321px) and (max-width: 575px){
+  .about-us .content {
+    margin-bottom: 30%;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+   .navbar .nav-item.active .nav-link::after {
+    width: 25%;
+    
+}
+.navbar .nav-item:hover .nav-link::after {
+    opacity: 1;
+    width: 25%;
+}
+.navbar .nav-item:hover .nav-link::after {
+    opacity: 1;
+    width: 45%;
+}
+header .navbar .nav-item {
+    margin: 8px;
+}
+header .navbar .nav-item .btn-login {
+    text-align: center;
+}
+header .hero-area {
+   
+    padding: 45px 0;
+}
+header .hero-area h1 {
+    font-size: 30px;
+    padding: 0 ;
+}
+header .hero-area p {
+    padding: 0;
+    margin-bottom: 35px;
+}
+.about-us .content h6 {
+    text-align: center;
+}
+.about-us .content h2 {
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom: 40px;
+}
+.col-1{
+	padding: 0;
+}
+.about-us .content h4 {
+    margin-right: 15px;
+}
+.about-us .content p {
+    padding-left: 0px;
+    margin-right: 15px;
+}
+.about-us .content .inner-content {
+    margin-bottom: 10%;
+}
+
+.what-we-do {
+    padding: 20px 0;
+}
+.what-we-do .marketing {
+    padding-left: 0px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+.what-we-do .marketing ul li {
+    margin: 10px 80px;
+    padding: 20px;
+}
+.what-we-do .marketing ul li span {
+    padding: 0px 35px;
+}
+.what-we-do .website {
+    margin: 12% 0;
+    text-align: center;
+}
+.what-we-do .website h6 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.what-we-do .website h2 {
+    font-size: 28px;
+    padding-right: 0;
+    margin-bottom: 20px;
+    
+}
+.service-offering {
+    padding: 6% 0px;
+    
+}
+.service-offering h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding: 0px 0%;
+    margin-top: 28px;
+}
+.service-offering p {
+    padding: 0px 0px;
+    margin-bottom: 45px;
+}
+.service-offering .market-place .service-img {
+    margin-bottom: 12%;
+    height: 50px;
+    width: 100%;
+}
+.service-offering .market-place {
+    text-align: center;
+    margin-left: 0;
+}
+.service-offering .market-place h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.thinking .thinking-area {
+    padding: 80px 0;
+    text-align: center;
+    margin-top: 0;
+}
+.thinking .thinking-area h2 {
+    font-size: 35px;
+    padding: 0;
+   
+}
+.thinking .thinking-area p {
+    padding: 0;
+    margin-bottom: 40px;
+}
+.thinking .thinking-area .btn-cta {
+    padding: 12px 30px;
+}
+.awesome-clint .clint {
+    margin-top: 50px;
+}
+.awesome-clint .clint h6 {
+    text-align: center;
+}
+.awesome-clint .clint h2 {
+    font-size: 30px;
+    padding-right: 0;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.awesome-clint .clint p {
+    text-align: center;
+    padding: 0 14%;
+}
+.awesome-clint .clint-img {
+    padding-left: 15px;
+}
+.footer .inspo-part {
+    padding: 0px 12%;
+    text-align: center;
+}
+.footer .inspo-part p {
+    margin-top: 20px;
+}
+.footer .info ul li {
+    margin: 12px;
+        
+}
+.footer .info ul li:first-child {
+   
+    text-align: left;
+}
+.footer .info .nav .nav-link {
+    text-align: center;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.navbar .nav-item.active .nav-link::after {
+    width: 25%;
+    
+}
+.navbar .nav-item:hover .nav-link::after {
+    opacity: 1;
+    width: 25%;
+}
+.navbar .nav-item:hover .nav-link::after {
+    opacity: 1;
+    width: 45%;
+}
+header .navbar .nav-item {
+    margin: 8px;
+}
+header .navbar .nav-item .btn-login {
+    text-align: center;
+}
+header .hero-area {
+    padding: 60px 0;
+}
+header .hero-area h1 {
+    font-size: 40px;
+    padding: 0px 8%;
+}
+header .hero-area p {
+    padding: 0px 14%;
+    
+}
+.col-1{
+	padding: 0;
+}
+.img-fluid {
+    height: 675px;
+}
+.what-we-do .marketing ul li {
+    margin: 10px 0%;
+    
+}
+.what-we-do .website {
+    padding: 80px 0px;
+    margin-top: 4%;
+}
+.what-we-do .website h2 {
+    font-size: 30px;
+    padding-right: 0%;
+    margin-bottom: 20px;
+}
+.service-offering p {
+    padding: 0px 20%;
+    margin-bottom: 60px;
+}
+.service-offering .market-place {
+    margin-left: 40px;
+}
+.thinking .thinking-area {
+    
+   /* padding: 60px 0;*/
+}
+.awesome-clint .clint-img {
+    padding-left: 16%;
+}
+.awesome-clint .clint {
+   
+    text-align: center;
+}
+.awesome-clint .clint h6 {
+    
+    font-size: 20px;
+    
+}
+.awesome-clint .clint h2 {
+    font-size: 30px;
+    padding-right: 0;
+    
+}
+.awesome-clint .clint p {
+    padding: 0 20%;
+}
+.footer .inspo-part {
+    padding: 0px 10px;
+}
+.footer .info h4 {
+    margin-left: -100px;
+}
+
+.footer .info .nav .nav-link {
+    margin-left: -75px;
+}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	header .hero-area h1 {
+    font-size: 60px;
+    padding: 0;
+ 
+}
+.img-fluid {
+    height: 700px;
+}
+.what-we-do .marketing ul li {
+    
+    margin: 10px 10%;
+    
+}
+.service-offering h2 {
+    font-size: 42px;
+    padding: 0px 15%;
+}
+.service-offering p {
+    padding: 0px 28%;
+    
+}
+.thinking .thinking-area {
+    padding: 100px 0;
+    margin-top: 0;
+}
+.awesome-clint .clint-img {
+    padding-left: 0px;
+}
+.awesome-clint .clint-img img {
+    margin: 2px;
+}
+.awesome-clint .clint {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.footer .info h4 {
+    color: #fff;
+    margin-left: -85px;
+}
+.footer .info .nav .nav-link {
+    color: #fff;
+    margin-left: -50px;
+}
+}
+
+@media (min-width: 1200px)
